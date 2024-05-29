@@ -1,0 +1,166 @@
+
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+.welcome-screen {
+  margin-top: 50px;
+}
+
+.card {
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid black; 
+  border-radius: 10px;
+  width: 300px;
+  background-color: #f9f9f9;
+}
+
+.card h2 {
+  margin-bottom: 20px;
+}
+
+.card p {
+  margin: 10px 0;
+}
+
+.start-button {
+  margin-top: 20px;
+  padding: 10px 90px;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #28a745; 
+  color: white;
+  font-size: 16px;
+}
+
+.pokemon-card {
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 300px;
+  background-color: #f9f9f9;
+}
+
+.pokemon-card h2 {
+  margin-bottom: 20px;
+}
+
+.pokemon-card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.pokemon-card li {
+  padding: 5px 0;
+}
+
+.pokemon-card button {
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.pokemon-details {
+  margin-top: 20px;
+}
+
+.pokemon-image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.pokemon-image img {
+  width: 100px;
+  height: 100px;
+}
+
+.pokemon-details h2 {
+  margin-top: 10px;
+}
+
+.pokemon-details p {
+  margin: 10px 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.buttons .like-button {
+  background-color: #90ee90; 
+}
+
+.buttons .dislike-button {
+  background-color: #ffcccb; 
+}
+
+.liked-pokemon {
+  margin-top: 50px;
+}
+
+.pokemon-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pokemon-item {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 150px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.pokemon-item .pokemon-image {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+
+.pokemon-item .pokemon-image img {
+  width: 100px;
+  height: 100px;
+}
+
+.pokemon-list-end {
+  margin-top: 50px;
+  font-size: 18px;
+  color: #555;
+}
+.heart-icon {
+  color: red;
+  margin-left: 5px;
+}
+
+@media (max-width: 768px) {
+  .pokemon-card {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .pokemon-item {
+    width: 100px;
+  }
+}
+
